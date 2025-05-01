@@ -1,0 +1,85 @@
+body.light {
+    background: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 20%);
+}
+
+body.dark {
+    background: hsl(0, 0%, 20%);
+    color: #f0f0f0;
+}
+
+/* Layout */
+.app-container {
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Toggle Button */
+.theme-toggle {
+    top: 20px;
+    border: none;
+    right: 20px;
+    background-color: transparent;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+/* Drop zone */
+.drop-zone {
+    border: 2px dashed #ccc;
+    padding: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+.drop-zone:hover {
+    border-color: #666;
+}
+
+/* Image preview */
+.image-preview {
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.image-preview img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs & buttons */
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: inherit;
+    color: inherit;
+}
+
+.Analyze-img {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+/* Response */
+.response {
+    margin-top: 20px;
+    font-weight: bold;
+    color: inherit;
+}
