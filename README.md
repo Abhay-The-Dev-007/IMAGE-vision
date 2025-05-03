@@ -32,6 +32,7 @@
     npm install
 
 3. Create a .env file and set the following variables: 
+    ```bash
     GEMINI_API_KEY= your gemini api
 
 ---
