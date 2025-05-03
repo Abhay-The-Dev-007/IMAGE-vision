@@ -29,6 +29,7 @@
     git clone https://github.com/yourusername/IMAGE-vision.git
 
 2. Install the dependencies
+    ```bash 
     npm install
 
 3. Create a .env file and set the following variables: 
